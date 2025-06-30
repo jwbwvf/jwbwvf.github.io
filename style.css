@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background-color: #CBD5E1;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  color: #485E8E;
+}
+
+h2 {
+  color: #485E8E;
+}
+
+h4 {
+  margin-top: 0.25rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.app-grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.app-card {
+  width: 33.333vw;
+  max-width: 400px;
+  min-width: 300px;
+  height: 220px;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 4px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.app-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  margin-bottom: 0;
+}
+
+.visit-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: #485E8E;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.visit-btn:hover {
+  background-color: rgba(72, 94, 142, 0.9);
+}
+
+.visit-btn.disabled {
+  background-color: #ccc;
+  color: #666;
+  pointer-events: none; /* disables click */
+  cursor: not-allowed;
+  text-decoration: none;
+}
